@@ -1,0 +1,24 @@
+
+// Uso de mixins en footer agregando imagen y cambiando de color enlaces 
+@mixin footer {
+    background-image: url(/Imagenes/FondoEncabezado.webp);
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size:15px;
+    text-align: center;
+}
+.footing {
+    @include footer
+}
+
+@mixin repaired {
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.repair {
+     @include repaired
+}

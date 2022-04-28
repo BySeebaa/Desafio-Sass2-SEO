@@ -1,0 +1,18 @@
+section {
+    h2 {
+        margin: 0px;
+        font-size: 30px;
+        color: orange;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+// Uso de Extends
+.ucard {
+    @extend .card;
+}
+
+.cardss {
+    @extend .cards;
+}

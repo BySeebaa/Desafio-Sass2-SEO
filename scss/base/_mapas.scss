@@ -1,0 +1,12 @@
+// Uso de mapa en Footer ajustando tamaños de h4
+$footers: (
+    h4:20px,
+);
+
+$h4:map-get($footers,h4 );
+
+footer {
+    h4 {
+        font-size: $h4;
+    }
+}

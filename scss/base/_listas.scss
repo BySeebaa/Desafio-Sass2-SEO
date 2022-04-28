@@ -1,0 +1,24 @@
+
+$colores:
+green,
+red,
+orange,
+yellow;
+
+$size:
+0px,
+15px,
+20px,
+50px,
+40px;
+
+// Uso de Listas colores y tamaño al h1 del header.
+
+header {
+    h1 {
+        color:  nth($colores,1 );
+        font-size: nth($size,4 );
+    }
+}
+
+
